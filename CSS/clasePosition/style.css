@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .parent {
+    border: 2px black dotted;
+    display: inline-block;
+  }
+
+  .box {
+    
+    /* position: relative; */
+    border: solid black 1px;
+    align-items: center;
+  }
+
+  #one {
+    position: relative;
+    left: 97px;
+    top: 23px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  #two {
+    /* position: static; */
+    border-radius: 50px;
+    display: flex;
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    padding: 50px;
+
+  }
